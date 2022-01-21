@@ -1,0 +1,12 @@
+Q1) [16,21,11,8,12,22] -> Write the stages of this array according to Merge Sort.
+
+A1) 
+Stage 1: [16,21,11]        [8.12.22]
+Stage 2: [16,21] [11]     [8,12] [22]
+Stage 3: [16] [21] [11]   [8] [12] [22]
+Stage 4: [16,21] [11]     [8,12] [22]
+Stage 5: [11,16,21]       [8,12,22]
+Stage 6: [8,11,12,16,21,22]
+
+Q2) Write the Big O notation of this array.
+A2) O(nlogn)
